@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20538e3a-0bbb-43d3-a79b-89048e62df45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/Code2SessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/CurlRequestController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/DBController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/GlobalVar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/TokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/UploadImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/lib/UserInfoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_game_comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_game_top_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_user_favor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_user_if_commented.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_user_info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/get_user_message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api/search_game_item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/lib/GameInfoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/lib/NewsInfoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lib/GlobalVar.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lib/GlobalVar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lib/UserInfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lib/UserInfoController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +28,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/lib/UserInfoController.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/lib/NewsInfoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="120" column="43" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+            <state relative-caret-position="665">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/lib/GameInfoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/lib/DBController.php">
+        <entry file="file://$PROJECT_DIR$/backend/src/api/get_game_top_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="133">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/api/get_game_comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/lib/UserInfoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/api/search_game_item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/lib/GlobalVar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -50,23 +100,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/backend/src/lib/DBController.php" />
+        <option value="$PROJECT_DIR$/backend/src/lib/NewsInfoController.php" />
+        <option value="$PROJECT_DIR$/backend/src/lib/GlobalVar.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_user_message.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_user_info.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_user_favor.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_user_if_commented.php" />
         <option value="$PROJECT_DIR$/backend/src/lib/UserInfoController.php" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/WeGame.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/backend/src/api/search_game_item.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_game_comment.php" />
+        <option value="$PROJECT_DIR$/backend/src/api/get_game_top_list.php" />
+        <option value="$PROJECT_DIR$/backend/src/lib/GameInfoController.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="47" />
+    <option name="y" value="30" />
     <option name="width" value="1400" />
     <option name="height" value="784" />
   </component>
@@ -101,6 +151,13 @@
               <item name="WeGame" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeGame" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -111,6 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -137,15 +195,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560064937174</updated>
-      <workItem from="1560064940682" duration="6729000" />
+      <workItem from="1560064940682" duration="25840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6729000" />
+    <option name="totallyTimeSpent" value="25840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="784" extended-state="0" />
+    <frame x="47" y="30" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -173,17 +231,87 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/src/lib/GlobalVar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/lib/DBController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="86">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_user_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_user_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_user_favor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_user_if_commented.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/lib/NewsInfoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/lib/UserInfoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="120" column="43" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/search_game_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_game_comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api/get_game_top_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/lib/GameInfoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
         </state>
       </provider>
     </entry>
